@@ -96,6 +96,7 @@ trait HasDependencies
             'ResourceStoreController@handle',
             'AssociatableController@index',
             'MorphableController@index',
+            'ResourceController@index', // Vedi: https://github.com/epartment/nova-dependency-container/issues/112
         ]);
     }
 
